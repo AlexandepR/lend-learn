@@ -5,10 +5,8 @@ import './App.css';
 function App() {
 
     const startTrivia = async () => {
-
     }
     const checkAnswer = (e: React.MouseEvent<HTMLButtonElement>) => {
-
     }
     const nextQuestion = () => {
 

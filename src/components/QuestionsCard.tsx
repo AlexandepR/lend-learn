@@ -4,7 +4,7 @@ type questionsCardType = {
     question: string;
     answers: string[];
     callback: any;
-    userAnswer: boolean;   //string
+    userAnswer: any;
     questionNum: number;
     totalQuestions: number;
 }

@@ -13,12 +13,12 @@ type AnswerObject = {
 }
 
 function App() {
-    const [questions, setQuestions] = useState<QuestionState[]>([])
-    const [userAnswers, setUserAnswers] = useState<AnswerObject[]>([])
-    const [number, setNumber] = useState(0)
-    const [loading, setLoading] = useState(false)
-    const [score, setScore] = useState(0)
-    const [gameOver, setGameOver] = useState(true)
+    const [questions, setQuestions] = useState<QuestionState[]>([]);
+    const [userAnswers, setUserAnswers] = useState<AnswerObject[]>([]);
+    const [number, setNumber] = useState(0);
+    const [loading, setLoading] = useState(false);
+    const [score, setScore] = useState(0);
+    const [gameOver, setGameOver] = useState(true);
 
     // console.log(questions)
 

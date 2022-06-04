@@ -52,10 +52,17 @@ function App() {
         };
     };
 
-
     const nextQuestion = () => {
+        const nextQuestion = number + 1
+        if ( nextQuestion === TOTAL_QUESTIONS) {
+            setGameOver(true);
+        } else {
+            setNumber(nextQuestion)
+        }
     };
+
     console.log(questions)
+
     return (
         <div className="App">
             <h1>React Quiz</h1>

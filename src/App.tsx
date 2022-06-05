@@ -51,7 +51,6 @@ function App() {
             setUserAnswers((prev) => [...prev, answerObj]);
         };
     };
-
     const nextQuestion = () => {
         const nextQuestion = number + 1
         if ( nextQuestion === TOTAL_QUESTIONS) {

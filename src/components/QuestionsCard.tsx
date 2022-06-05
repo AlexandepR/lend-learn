@@ -27,17 +27,17 @@ const QuestionsCard: React.FC<questionsCardType> =
                 </p>
                 <p dangerouslySetInnerHTML={{ __html: question }}/>
                 <div>
-                    {answers.map( (answer) => (
-                            <ButtonWrapper
-                                key={answer}
-                                correct={userAnswer?.correctAnswer === answer}
-                                userClicked={userAnswer?.answer === answer}
-                            >
-                            <button disabled={!!userAnswer} value={answer} onClick={callback}>{answer}
-                            <span dangerouslySetInnerHTML={{ __html: answer }}/>
-                            </button>
-                            </ButtonWrapper>
-                    ))}
+                    {/*{answers.map( (answer) => (*/}
+                    {/*        <ButtonWrapper*/}
+                    {/*            key={answer}*/}
+                    {/*            correct={userAnswer?.correctAnswer === answer}*/}
+                    {/*            userClicked={userAnswer?.answer === answer}*/}
+                    {/*        >*/}
+                    {/*        <button disabled={!!userAnswer} value={answer} onClick={callback}>{answer}*/}
+                    {/*        <span dangerouslySetInnerHTML={{ __html: answer }}/>*/}
+                    {/*        </button>*/}
+                    {/*        </ButtonWrapper>*/}
+                    {/*))}*/}
                 </div>
             </div>
         )

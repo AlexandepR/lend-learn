@@ -38,7 +38,8 @@ export const Wrapper = styled.div`
   }
   
   h1 {
-    font-family: Fascinate Inline, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Fascinate Inline, Haettenschweiler, 'Narrow Bold', sans-serif;
+    //font-family: Fascinate Inline, Haettenschweiler, 'Arial Narrow Bold';
     //background-image: linear-gradient(180deg, #fff, #87f1ff);
     background-size: 100%;
     //background-clip: text;
@@ -52,12 +53,20 @@ export const Wrapper = styled.div`
     text-align: center;
     margin: 20px;
   }
-  .start, .next {
+  .buttonStart,
+  .buttonNext {
     cursor: pointer;
     background: linear-gradient(180deg, #fff, #ffcc91);
     border: 2px solid #d38558;
     box-shadow: 0px 5px 10px rgda(0, 0, 0, 0.25);
-    
+    border-radius: 10px;
+    height: 40px;
+    margin: 20px 0;
+    padding: 0 40px;
+  }
+  
+  .start {
+    max-width: 200px;
   }
   
 `;

@@ -76,6 +76,7 @@ function App() {
             {loading && <p>Loading questions...</p>}
             {!gameOver && !loading && (
                 <QuestionsCard
+
                     question={questions[number].question}
                     answers={questions[number].answers}
                     callback={checkAnswer}
